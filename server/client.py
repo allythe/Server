@@ -53,7 +53,7 @@ while shutdown == False:
     else:
         try:
             message = input()
-            
+           # kokoko
             
             if message != "":
                 room_s.sendto(("["+alias+"]::"+message).encode("utf-8"), room)
